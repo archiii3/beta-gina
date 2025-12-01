@@ -15,6 +15,7 @@ This example demonstrates:
 ---
 
 ## Safety & Legal
+* A secure message broker (MQTT) for delivering commands to the in-vehicle device.
 
 * Laws and regulations vary by country. Ensure remote-starting a vehicle is legal in your jurisdiction.
 * Implement safety interlocks: verify vehicle is in PARK, handbrake engaged, battery voltage OK, engine not already running, and no diagnosed faults before starting.
