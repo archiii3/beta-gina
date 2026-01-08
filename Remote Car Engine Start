@@ -8,9 +8,7 @@ This repository contains an example implementation of a remote car engine start 
 
 This example demonstrates:
 
-* A minimal authenticated HTTP API (Flask) to request engine start/stop.
-* A secure message broker (MQTT) for delivering commands to the in-vehicle device.
-* Example device code (ESP32 with MicroPython or CircuitPython) that receives commands and toggles a starter relay with safety checks.
+
 A minimal authenticated HTTP API (Flask) to request engine start/stop.
 * A secure message broker (MQTT) for delivering commands to the in-vehicle device.
 * Example device code (ESP32 with MicroPython or CircuitPython) that receives commands a
@@ -32,7 +30,9 @@ A minimal authenticated HTTP API (Flask) to request engine start/stop.
 * A safe starter relay module or an automotive-grade starter control interface (do **not** directly drive starter motor from the microcontroller).
 * CAN/OBD-II reader (optional) to check gear/ignition/vehicle status.
 * Automotive-grade power supply and isolation.
-
+* A minimal authenticated HTTP API (Flask) to request engine start/stop.
+* A secure message broker (MQTT) for delivering commands to the in-vehicle device.
+* Example device code (ESP32 with MicroPython or CircuitPython) that receives commands and toggles a starter relay with safety checks.
 ---
 
 ## Architecture
