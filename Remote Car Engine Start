@@ -47,6 +47,10 @@ A minimal authenticated HTTP API (Flask) to request engine start/stop.
 
 ---
 
+A minimal authenticated HTTP API (Flask) to request engine start/stop.
+* A secure message broker (MQTT) for delivering commands to the in-vehicle device.
+* Example device code (ESP32 with MicroPython or CircuitPython) that receives commands a
+---
 ## Repository structure (suggested)
 
 ```
