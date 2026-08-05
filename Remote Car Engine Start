@@ -19,7 +19,8 @@ A minimal authenticated HTTP API (Flask) to request engine start/stop.
 
 ## Safety & Legal
 * A secure message broker (MQTT) for delivering commands to the in-vehicle device.
-
+A minimal authenticated HTTP API (Flask) to request engine start/stop.
+* A secure message broker (MQTT) for delivering commands to the in-vehicle device.
 * Laws and regulations vary by country. Ensure remote-starting a vehicle is legal in your jurisdiction.
 * Implement safety interlocks: verify vehicle is in PARK, handbrake engaged, battery voltage OK, engine not already running, and no diagnosed faults before starting.
 * Add rate limiting, strong authentication (JWT/OAuth2 + TLS), audit logs, and two-factor authentication for critical commands.
